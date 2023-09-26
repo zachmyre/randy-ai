@@ -7,6 +7,7 @@
 class Bot {
 public:
     Bot(); // constructor
+    void startConversation();
     void getInput();
     void answerQuestion(); 
     void addToConversation(const std::string& str);
